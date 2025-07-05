@@ -1,0 +1,140 @@
+
+
+#mobilephoto{display: none;}
+
+#navmainbar{
+
+    padding: 0;
+
+    height: 50px;
+    background-color: crimson;
+}
+#mainul {
+    
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    width: 100px;
+    /* justify-content: center; */
+
+}
+.hiddenlist{
+    padding: 0;
+    /* display: block; */
+}
+
+
+
+#imag{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+   
+}
+#gun{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+     left: 30%;
+    display: none;
+    
+}
+#gunfire{
+    position: absolute;
+    top: 30%;
+   
+    left: 35%;
+    display: none;
+}
+
+.div1{
+   
+   position: absolute;
+  
+   background-color: aliceblue;
+   padding: 20px;
+   opacity: 0.8;
+   width: 150px;
+   height: 150px;
+   bottom: 10%;
+   left: 15%;
+  
+
+}
+.div2{
+    background-color: aliceblue;
+    opacity: 0.8;
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+  
+    
+    
+}
+.div3{
+    background-color: aliceblue;
+   opacity: 0.8;
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    
+}
+.div4{
+    background-color: aliceblue;
+   opacity: 0.8;
+    position: absolute;
+    left: 60%;
+    bottom: 10%;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .div1{
+       left:10%;
+       bottom:-25%;
+    }
+    .div2{
+        left:35%;
+        bottom:-25%;
+    }
+    .div3{
+        left:65%;
+        bottom:-25%;
+    } 
+    .div4{
+        left:90%;
+       bottom:-25%;
+    }
+    #imag {display: none;}
+
+    #mobilephoto{
+        display: block;
+        width: 150%;
+        height: 150%;
+    }
+    #gun{
+      
+    top:50%;
+    left:25%;
+
+    }
+    #gunfire{
+        top:60%;
+        left:45%;
+    }
+
+}
